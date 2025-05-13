@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VITAFORS – DDD služby</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #f4f4f4; color: #333; }
+    header { background: #2c3e50; color: white; padding: 1rem; text-align: center; }
+    nav { background: #34495e; display: flex; justify-content: center; flex-wrap: wrap; }
+    nav a { color: white; padding: 1rem; text-decoration: none; font-weight: bold; }
+    nav a:hover { background: #2c3e50; }
+    .container { padding: 2rem; max-width: 1000px; margin: auto; }
+    .logo { max-width: 200px; display: block; margin: 1rem auto; }
+    .button { background-color: #27ae60; color: white; padding: 0.75rem 1.5rem; border: none;
+              border-radius: 8px; font-size: 1rem; cursor: pointer; margin: 1rem 0;
+              text-decoration: none; display: inline-block; }
+    .button:hover { background-color: #219150; }
+    form { background: white; padding: 2rem; border-radius: 10px;
+           box-shadow: 0 0 10px rgba(0,0,0,0.1); margin-top: 2rem; }
+    input, textarea { width: 100%; padding: 0.75rem; margin: 0.5rem 0;
+                      border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; }
+    iframe { width: 100%; height: 300px; border: none; margin-top: 2rem; border-radius: 10px; }
+    footer { text-align: center; padding: 1rem; background: #2c3e50; color: white; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>VITAFORS</h1>
+    <p>Deratizácia, dezinsekcia, dezinfekcia</p>
+  </header>
+
+  <nav>
+    <a href="#sluzby">Služby</a>
+    <a href="#kontakt">Kontakt</a>
+    <a href="#mapa">Mapa</a>
+  </nav>
+
+  <div class="container">
+    <img src="logo.png" alt="VITAFORS logo" class="logo">
+
+    <section id="sluzby">
+      <h2>Naše služby</h2>
+      <p>Špecializujeme sa na profesionálnu deratizáciu, dezinsekciu a dezinfekciu objektov v súlade s platnými hygienickými normami.</p>
+      <a href="#kontakt" class="button">Kontaktujte nás</a>
+    </section>
+
+    <section id="kontakt">
+      <h2>Kontaktný formulár</h2>
+      <form>
+        <label>Meno:</label>
+        <input type="text" placeholder="Vaše meno" required>
+        <label>Email:</label>
+        <input type="email" placeholder="Váš email" required>
+        <label>Správa:</label>
+        <textarea rows="5" placeholder="Napíšte nám správu..." required></textarea>
+        <button type="submit" class="button">Odoslať</button>
+      </form>
+    </section>
+
+    <section id="mapa">
+      <h2>Kde nás nájdete</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.5809159989245!2d17.116196215716453!3d48.14859697922495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c891d3e1e443d%3A0x39a9e891b2f79ec1!2sBratislava!5e0!3m2!1ssk!2ssk!4v1615995600000!5m2!1ssk!2ssk" allowfullscreen></iframe>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 VITAFORS – Všetky práva vyhradené
+  </footer>
+
+</body>
+</html>
