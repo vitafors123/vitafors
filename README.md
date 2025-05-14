@@ -1,4 +1,4 @@
-# VITAFORS spol.s r.o. – DDD služby
+# VITAFORS spol.sro – DDD služby
 
 Oficiálna webová stránka spoločnosti **VITAFORS**, špecializujúcej sa na:
 
